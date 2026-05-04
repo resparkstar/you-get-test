@@ -19,8 +19,8 @@ jobs:
           echo "ANDROID_NDK_HOME: $ANDROID_NDK_HOME"
           ls -la $ANDROID_NDK_HOME
 
-      - name: Build Project
-        run: |
-          # 示例：使用ndk-build
-          cd app/src/main/cpp
-          $ANDROID_NDK_HOME/ndk-build NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=Android.mk
+      
+        
+          
+          
+          
