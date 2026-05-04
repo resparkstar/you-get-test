@@ -18,7 +18,7 @@ jobs:
         run: |
           echo "ANDROID_NDK_HOME: $ANDROID_NDK_HOME"
           ls -la $ANDROID_NDK_HOME
-          cd  $ANDROID_NDK_HOME/ndk-build
+          cd  $ANDROID_NDK_HOME
           ls 
         
           
