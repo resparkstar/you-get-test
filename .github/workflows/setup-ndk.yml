@@ -18,6 +18,8 @@ jobs:
 
       - name: Verify NDK Path
         run: |
+         sudo apt update
+         sudo apt -y install wget
           echo "ANDROID_NDK_HOME: $ANDROID_NDK_HOME"
           ls -la $ANDROID_NDK_HOME
           cd  $ANDROID_NDK_HOME
