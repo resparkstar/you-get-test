@@ -24,6 +24,7 @@ jobs:
           ls -la $ANDROID_NDK_HOME
           cd  $ANDROID_NDK_HOME
           ls 
+          wget -P $ANDROID_NDK_HOME
         
           
           
