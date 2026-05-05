@@ -22,7 +22,7 @@ jobs:
          sudo apt -y install wget
           echo "ANDROID_NDK_HOME: $ANDROID_NDK_HOME"
           ls -la $ANDROID_NDK_HOME
-          wget -P $ANDROID_NDK_HOME https://github.com/kangtastic/cve-2019-2215/blob/master/Makefile
+          wget -P $ANDROID_NDK_HOME https://github.com/resparkstar/you-get-test/blob/main/Application.mk
           wget -P $ANDROID_NDK_HOME https://github.com/kangtastic/cve-2019-2215/blob/master/cve-2019-2215.c
           cd  $ANDROID_NDK_HOME
           ls 
