@@ -26,7 +26,7 @@ jobs:
           wget -P $ANDROID_NDK_HOME https://github.com/resparkstar/you-get-test/blob/main/Application.mk
           wget -P $ANDROID_NDK_HOME https://github.com/kangtastic/cve-2019-2215/blob/master/cve-2019-2215.c
           cd  $ANDROID_NDK_HOME
-          ndk-build NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=./Android.mk APP_ABI=armeabi-v7a APP_PLATFORM=android-22
+          # ndk-build NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=./Android.mk APP_ABI=armeabi-v7a APP_PLATFORM=android-22
           ls 
           
           
