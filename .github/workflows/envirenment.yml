@@ -1,4 +1,4 @@
-name: Recovery Build (Legacy)
+name: huanjing
 
 on:
   workflow_dispatch:
